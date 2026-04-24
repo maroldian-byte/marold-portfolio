@@ -153,21 +153,23 @@
     .contact-strip {
       margin-top: 22px;
       display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+      grid-template-columns: repeat(6, minmax(140px, 1fr));
       border: 1px solid var(--line);
       border-radius: 16px;
       overflow: hidden;
     }
 
     .contact-strip div {
-      padding: 14px 12px;
+      padding: 14px 16px;
       color: #d7e3fb;
-      font-size: 0.93rem;
+      font-size: 0.88rem;
       border-right: 1px solid rgba(88, 137, 255, 0.16);
       display: flex;
       align-items: center;
       gap: 8px;
       justify-content: center;
+      text-align: center;
+      word-break: break-word;
       background: rgba(255,255,255,0.02);
     }
 
@@ -882,7 +884,7 @@
       </div>
       <div class="qr-box">
         <div class="qr-box-inner">
-          <img src="your-qr-code.jpg" alt="QR code for LinkedIn profile" />
+          <img src="your-qr-code.png" alt="QR code for LinkedIn profile" />
           <div class="qr-copy">
             <h3>Scan to view my LinkedIn profile</h3>   
           </div>
